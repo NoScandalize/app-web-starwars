@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Star-Wars;
+    src: url(fonts/Starjedi.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+body {
+    background-color: #161616;
+    color: white;
+}
+
+.logo {
+    height: 48px;
+    width: 48px;
+    margin-right: 12px;
+    margin-top: 10px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.star-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.star-font {
+    font-family: Star-Wars;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-left: 20px;
+}
